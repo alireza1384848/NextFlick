@@ -30,6 +30,9 @@
     <ClCompile Include="signup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HafmanCompression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CompressedTrieTree.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="signup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HafmanCompression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
