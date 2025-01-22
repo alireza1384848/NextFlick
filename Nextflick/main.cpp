@@ -1,7 +1,7 @@
 #include"signup.h"
 #include "HashTable.h"
 #include"Video.h"
-
+#include "Serial.h"
 //void func(Video v)
 //{
 //	std::vector<std::vector<Video>> a(3);
@@ -12,7 +12,7 @@
 //	a[0].push_back(v);
 //}
 int main(){
-	Video act("a", 1399, 215, Iran, Action, Persian, 9, "jjhdbd");
+	Serial act("a", 1399, 215, Iran, Action, Persian, 9, "jjhdbd",18,12);
 	HashTable<Video> action(100);
 	action.insertToHashTable(act, Comedy);
 	/*HashTable<int> myHashTable(10);

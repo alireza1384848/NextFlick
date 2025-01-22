@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include "Video.h"
 
 template<typename T>
 class HashTable
@@ -9,9 +8,11 @@ class HashTable
 public:
     HashTable<T>(int row);
     bool insertToHashTable(T data, int key);
+    int hashTableSize(int row);
 private:
     int row;
-    std::vector<std::vector<T>> hashTable;  
+    std::vector<std::vector<T>> hashTable; 
+    
 };
 
 template <typename T>
@@ -27,4 +28,10 @@ bool HashTable<T>::insertToHashTable(T data, int key)
     if (key < 0 || key >= row)
         return false;
     hashTable[key].push_back(data);
+}
+
+template<typename T>
+inline int HashTable<T>::hashTableSize(int row)
+{
+    return hashTable[row].size();
 }
