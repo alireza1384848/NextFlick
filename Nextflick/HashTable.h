@@ -9,10 +9,10 @@ public:
     HashTable<T>(int row);
     bool insertToHashTable(T data, int key);
     int hashTableSize(int row);
+    Video ReturnVideo(int row, int col);
 private:
     int row;
-    std::vector<std::vector<T>> hashTable; 
-    Video ReturnVideo(int row, int col);
+    std::vector<std::vector<T>> hashTable;    
 };
 
 template <typename T>
@@ -39,5 +39,5 @@ inline int HashTable<T>::hashTableSize(int row)
 template<typename T>
 Video HashTable<T>::ReturnVideo(int row, int col)
 {
-    return Video();
+    return hashTable[row][col];
 }
