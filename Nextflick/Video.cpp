@@ -7,6 +7,8 @@ Video::Video(std::string name, int year, double time, Country country,
 {
 }
 
+Video::Video() {};
+
 std::string Video::getName()
 {
 	return std::string(name);

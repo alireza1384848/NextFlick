@@ -1,7 +1,17 @@
-﻿  CompressedTrieTree.cpp
-  Main.cpp
-  Serial.cpp
-  signup.cpp
-  Video.cpp
-  Generating Code...
+﻿  Main.cpp
+C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\HashTable.h(18,15): warning C4812: obsolete declaration style: please use 'HashTable<T>::HashTable' instead
+  (compiling source file 'Main.cpp')
+  
+C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\HashTable.h(18,15): warning C4812: obsolete declaration style: please use 'HashTable<Video>::HashTable' instead
+  (compiling source file 'Main.cpp')
+      C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\HashTable.h(18,15):
+      the template instantiation context (the oldest one first) is
+          C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\Main.cpp(16,19):
+          see reference to class template instantiation 'HashTable<Video>' being compiled
+          C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\HashTable.h(18,1):
+          while compiling class template member function 'HashTable<Video>::HashTable(int)'
+              C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\Main.cpp(16,25):
+              see the first reference to 'HashTable<Video>::HashTable' in 'main'
+  
+C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\HashTable.h(31,1): warning C4715: 'HashTable<Video>::insertToHashTable': not all control paths return a value
   VideoHandler.vcxproj -> C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\x64\Debug\VideoHandler.exe

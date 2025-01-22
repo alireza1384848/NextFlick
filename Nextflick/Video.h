@@ -29,6 +29,7 @@ public:
 	Video(std::string name, int year, double time, Country country,
 		Genre genre, Language language, double score, std::string story
 	);
+	Video();
 	std::string getName();
 	int getYear();
 	double getTime();
