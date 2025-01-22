@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CompressedTrieTree.cpp" />
+    <ClCompile Include="HafmanCompression.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Serial.cpp" />
     <ClCompile Include="signup.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CompressedTrieTree.h" />
+    <ClInclude Include="HafmanCompression.h" />
     <ClInclude Include="Serial.h" />
     <ClInclude Include="signup.h" />
     <ClInclude Include="SplayTree.h" />
