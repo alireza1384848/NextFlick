@@ -1,5 +1,0 @@
-﻿  DataBase.cpp
-C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\HashTable.h(17,15): warning C4812: obsolete declaration style: please use 'HashTable<T>::HashTable' instead
-  (compiling source file 'DataBase.cpp')
-  
-  VideoHandler.vcxproj -> C:\Users\sistanAlaptop\Desktop\New folder\NextFlick\Nextflick\x64\Debug\VideoHandler.exe
