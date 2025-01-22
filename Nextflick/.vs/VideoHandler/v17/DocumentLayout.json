@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE54199B-BC3C-4A4B-B3C6-199CD43D05CF}|VideoHandler.vcxproj|C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\CompressedTrieTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EE54199B-BC3C-4A4B-B3C6-199CD43D05CF}|VideoHandler.vcxproj|solutionrelative:CompressedTrieTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE54199B-BC3C-4A4B-B3C6-199CD43D05CF}|VideoHandler.vcxproj|C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\Serial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EE54199B-BC3C-4A4B-B3C6-199CD43D05CF}|VideoHandler.vcxproj|solutionrelative:Serial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Serial.cpp",
+              "DocumentMoniker": "C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\Serial.cpp",
+              "RelativeDocumentMoniker": "Serial.cpp",
+              "ToolTip": "C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\Serial.cpp",
+              "RelativeToolTip": "Serial.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T07:45:56.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompressedTrieTree.cpp",
+              "DocumentMoniker": "C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\CompressedTrieTree.cpp",
+              "RelativeDocumentMoniker": "CompressedTrieTree.cpp",
+              "ToolTip": "C:\\Users\\sistanAlaptop\\Desktop\\New folder\\NextFlick\\Nextflick\\CompressedTrieTree.cpp",
+              "RelativeToolTip": "CompressedTrieTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T07:45:54.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
