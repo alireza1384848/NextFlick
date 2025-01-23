@@ -10,14 +10,19 @@ DataBase::DataBase() :gener(HashRows /*count of gener in programm*/), language(H
 
 std::vector<Video> DataBase::FilteringMovies(int _gener, int _language, int _country)
 {
-	Serial act("a", 1399, 215, Iran, Action, Persian, 9, "jjhdbd", 18, 12);
 	std::vector<Video> concate;
 	if (_gener > 2 || _gener < 0)
 		for (int i = 0; i < HashRows; i++)
 			for (int j = 0; j < gener.hashTableSize(i); j++)
-				concate.push_back(act);
-
-			
+				concate.push_back(gener.ReturnVideo(i,j));
+	if(_language > 2 || _language < 0)
+		for (int i = 0; i < HashRows; i++)
+			for (int j = 0; j < language.hashTableSize(i); j++)
+				concate.push_back(language.ReturnVideo(i, j));
+	if(_country > 2 || _country < 0)
+		for (int i = 0; i < HashRows; i++)
+			for (int j = 0; j < country.hashTableSize(i); j++)
+				concate.push_back(country.ReturnVideo(i, j));
 
 	return std::vector<Video>();
 		

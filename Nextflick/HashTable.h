@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
-
+#include "Serial.h"
 template<typename T>
 class HashTable
 {
@@ -9,10 +9,10 @@ public:
     HashTable<T>(int row);
     bool insertToHashTable(T data, int key);
     int hashTableSize(int row);
+    Video ReturnVideo(int row, int col);
 private:
     int row;
-    std::vector<std::vector<T>> hashTable; 
-    
+    std::vector<std::vector<T>> hashTable;    
 };
 
 template <typename T>
@@ -34,4 +34,10 @@ template<typename T>
 inline int HashTable<T>::hashTableSize(int row)
 {
     return hashTable[row].size();
+}
+
+template<typename T>
+Video HashTable<T>::ReturnVideo(int row, int col)
+{
+    return hashTable[row][col];
 }
