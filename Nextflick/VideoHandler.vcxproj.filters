@@ -30,7 +30,11 @@
     <ClCompile Include="signup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+
     <ClCompile Include="DataBase.cpp">
+
+    <ClCompile Include="HafmanCompression.cpp">
+
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,10 +54,12 @@
     <ClInclude Include="signup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+
     <ClInclude Include="HashTable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DataBase.h">
+
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
